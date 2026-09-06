@@ -13,7 +13,9 @@ export const profile = {
     "TypeScript",
     "React",
     "React Native",
+    "Expo",
     "Android",
+    "iOS",
     "Next.js",
     "Node.js",
     "PHP",
@@ -114,7 +116,7 @@ export const projects: Project[] = [
     name: "TALAAWIN",
     blurb:
       "GeoGuess Tunisian edition — guess locations across Tunisia. Download the Android APK and play.",
-    stack: ["Android", "Maps", "Game"],
+    stack: ["React Native", "Expo", "iOS", "Android", "Maps"],
     download:
       "https://github.com/nassim778/TALAAWIN/releases/download/v1.0.0/TALAAWIN-1.0.0.apk",
     kind: "Game",
