@@ -224,8 +224,12 @@ export default function App() {
               >
                 Chat on WhatsApp
               </a>
-              <a className="btn btn-ghost" href={`tel:${profile.whatsapp}`}>
-                Call {profile.whatsappDisplay}
+              <a
+                className="btn btn-ghost btn-call"
+                href={`tel:${profile.whatsapp}`}
+              >
+                <span className="btn-call-full">Call {profile.whatsappDisplay}</span>
+                <span className="btn-call-short">Call me</span>
               </a>
             </div>
           </div>
