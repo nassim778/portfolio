@@ -187,11 +187,16 @@ export default function App() {
                     ))}
                   </ul>
                 </div>
-                {project.live || project.tryCommand ? (
+                {project.live || project.download || project.tryCommand ? (
                   <div className="work-links">
                     {project.live ? (
                       <a href={project.live} target="_blank" rel="noreferrer">
                         Live ↗
+                      </a>
+                    ) : null}
+                    {project.download ? (
+                      <a href={project.download} target="_blank" rel="noreferrer">
+                        Download APK ↗
                       </a>
                     ) : null}
                     {project.tryCommand ? (

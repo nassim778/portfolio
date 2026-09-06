@@ -13,6 +13,7 @@ export const profile = {
     "TypeScript",
     "React",
     "React Native",
+    "Android",
     "Next.js",
     "Node.js",
     "PHP",
@@ -34,6 +35,7 @@ export type Project = {
   blurb: string;
   stack: string[];
   live?: string;
+  download?: string;
   tryCommand?: string;
   kind: string;
 };
@@ -71,7 +73,7 @@ export const projects: Project[] = [
     name: "Abdelmoula Véhicules",
     blurb:
       "Fleet and vehicle ops dashboard — leasing, mileage, expenses, stock pieces, travel tours, and notifications in PHP.",
-    stack: ["PHP", "CSS", "JavaScript"],
+    stack: ["PHP", "MySQL", "JavaScript"],
     kind: "Client",
   },
   {
@@ -111,8 +113,10 @@ export const projects: Project[] = [
     id: "talaawin",
     name: "TALAAWIN",
     blurb:
-      "GeoGuess Tunisian edition — guess locations across Tunisia and learn the map by playing.",
-    stack: ["Web", "Maps", "Game"],
+      "GeoGuess Tunisian edition — guess locations across Tunisia. Download the Android APK and play.",
+    stack: ["Android", "Maps", "Game"],
+    download:
+      "https://github.com/nassim778/TALAAWIN/releases/download/v1.0.0/TALAAWIN-1.0.0.apk",
     kind: "Game",
   },
   {
