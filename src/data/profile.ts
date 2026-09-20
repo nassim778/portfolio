@@ -37,6 +37,7 @@ export type Project = {
   blurb: string;
   stack: string[];
   live?: string;
+  repo?: string;
   download?: string;
   tryCommand?: string;
   kind: string;
@@ -76,6 +77,15 @@ export const projects: Project[] = [
     blurb:
       "Fleet and vehicle ops dashboard — leasing, mileage, expenses, stock pieces, travel tours, and notifications in PHP.",
     stack: ["PHP", "MySQL", "JavaScript"],
+    kind: "Client",
+  },
+  {
+    id: "abdelmoula-rh",
+    name: "Abdelmoula RH",
+    blurb:
+      "HR platform for Abdelmoula Agency — worker files, payroll, CNSS, leaves, salary advances, work certificates, family records, and EN/FR UI.",
+    stack: ["PHP", "MySQL", "JavaScript"],
+    repo: "https://github.com/nassim778/ABDELMOULA-RH",
     kind: "Client",
   },
   {

@@ -118,8 +118,8 @@ export default function App() {
                 on MongoDB and PostgreSQL.
               </p>
               <p>
-                Recent work spans map-first platforms, fleet ops dashboards, camping
-                reservations, remote desktop, and freelance commerce. I care about clear
+                Recent work spans map-first platforms, fleet ops dashboards, HR payroll,
+                camping reservations, remote desktop, and freelance commerce. I care about clear
                 interfaces that are useful the first time you open them.
               </p>
             </div>
@@ -187,11 +187,19 @@ export default function App() {
                     ))}
                   </ul>
                 </div>
-                {project.live || project.download || project.tryCommand ? (
+                {project.live ||
+                project.repo ||
+                project.download ||
+                project.tryCommand ? (
                   <div className="work-links">
                     {project.live ? (
                       <a href={project.live} target="_blank" rel="noreferrer">
                         Live ↗
+                      </a>
+                    ) : null}
+                    {project.repo ? (
+                      <a href={project.repo} target="_blank" rel="noreferrer">
+                        GitHub ↗
                       </a>
                     ) : null}
                     {project.download ? (
