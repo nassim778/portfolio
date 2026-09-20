@@ -37,7 +37,6 @@ export type Project = {
   blurb: string;
   stack: string[];
   live?: string;
-  repo?: string;
   download?: string;
   tryCommand?: string;
   kind: string;
@@ -77,7 +76,6 @@ export const projects: Project[] = [
     blurb:
       "HR management for Abdelmoula Agency — workers, payroll, CNSS, leaves, calendar, and notifications in PHP.",
     stack: ["PHP", "MySQL", "JavaScript"],
-    repo: "https://github.com/nassim778/ABDELMOULA-RH",
     kind: "Client",
   },
   {
