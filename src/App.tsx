@@ -87,10 +87,12 @@ export default function App() {
             <div className="hero-visual">
               <img
                 className="hero-photo"
-                src={profile.avatar}
+                src="/hero-photo.webp"
                 alt={profile.name}
                 width={640}
                 height={640}
+                fetchPriority="high"
+                decoding="async"
               />
               <div className="hero-badge">{profile.title}</div>
             </div>
