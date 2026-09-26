@@ -4,7 +4,6 @@ export const profile = {
   tagline:
     "Building web and mobile products — from React Native apps to TypeScript frontends and solid backends.",
   degree: "Master’s in Mobile Development Engineering",
-  avatar: "https://avatars.githubusercontent.com/u/208200166?v=4",
   whatsapp: "+21629676787",
   whatsappDisplay: "+216 29 676 787",
   whatsappUrl: "https://wa.me/21629676787",
