@@ -1,40 +1,6 @@
-import { useEffect, useRef } from "react";
 import { profile, projects } from "./data/profile";
 
-function useReveal() {
-  const ref = useRef<HTMLUListElement>(null);
-
-  useEffect(() => {
-    const root = ref.current;
-    if (!root) return;
-
-    const items = root.querySelectorAll<HTMLElement>(".work-item");
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
-            io.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.12, rootMargin: "0px 0px -8% 0px" },
-    );
-
-    items.forEach((el, i) => {
-      el.style.transitionDelay = `${i * 60}ms`;
-      io.observe(el);
-    });
-
-    return () => io.disconnect();
-  }, []);
-
-  return ref;
-}
-
 export default function App() {
-  const workRef = useReveal();
-
   return (
     <div className="site">
       <header className="wrap">
@@ -176,7 +142,7 @@ export default function App() {
             </h2>
           </div>
 
-          <ul className="work-list" ref={workRef}>
+          <ul className="work-list">
             {projects.map((project) => (
               <li className="work-item" key={project.id}>
                 <div className="work-main">
