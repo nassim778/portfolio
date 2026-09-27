@@ -48,9 +48,14 @@
         "mainEntity": {
           "@type": "Person",
           "name": "Nacim Rached",
+          "alternateName": ["Nassim Rached", "Nassim R."],
           "url": "https://www.nacim.tn/",
           "image": "https://www.nacim.tn/hero-photo.webp",
           "jobTitle": "Full-stack and Mobile Developer",
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Higher Institute of Management of Gabès (ISG Gabès)"
+          },
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "TN"
@@ -62,7 +67,11 @@
             "Mobile application development",
             "Full-stack development"
           ],
-          "sameAs": ["https://github.com/nassim778"]
+          "sameAs": [
+            "https://github.com/nassim778",
+            "https://tn.linkedin.com/in/nacim-rached-843665245",
+            "https://www.nacim.tn"
+          ]
         }
       }
     </script>
@@ -83,7 +92,13 @@
     </noscript>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Fallback static content for non-JS web crawlers and AI bots -->
+      <header style="display:none;">
+        <h1>Nacim Rached — Mobile &amp; Full-Stack Developer</h1>
+        <p>React Native, Expo, and TypeScript developer in Tunisia.</p>
+      </header>
+    </div>
     <script prerender type="module" src="/src/main.tsx"></script>
   </body>
 </html>
