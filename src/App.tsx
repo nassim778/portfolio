@@ -158,7 +158,12 @@ export default function App() {
                 {project.live || project.download || project.tryCommand ? (
                   <div className="work-links">
                     {project.live ? (
-                      <a href={project.live} target="_blank" rel="noreferrer">
+                      <a
+                        href={project.live}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`View live demo for ${project.name}`}
+                      >
                         Live ↗
                       </a>
                     ) : null}
