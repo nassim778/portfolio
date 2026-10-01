@@ -1,13 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot, hydrateRoot } from "react-dom/client";
-import { Analytics } from "@vercel/analytics/react";
 import "./index.css";
 import App from "./App.tsx";
 
 const app = (
   <StrictMode>
     <App />
-    <Analytics mode="production" />
   </StrictMode>
 );
 
