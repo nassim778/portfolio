@@ -6,7 +6,13 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
 const { render } = await import(resolve(root, "dist-ssr/entry-server.js"));
 
-const appHtml = render();
+// React 19 hoists <img fetchPriority> into a preload <link> during
+// renderToString. index.html already preloads the hero image, and a
+// link inside #root would not match the client render.
+const appHtml = render().replace(
+  /<link rel="preload" as="image" href="\/hero-photo\.webp"[^>]*>/,
+  "",
+);
 const templatePath = resolve(root, "dist/index.html");
 const template = readFileSync(templatePath, "utf-8");
 
