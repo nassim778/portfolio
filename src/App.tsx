@@ -85,6 +85,7 @@ export default function App() {
                 full-stack and mobile developer with a {profile.degree}. I work across
                 React and React Native, TypeScript frontends, Node tooling, and PHP /
                 Laravel backends — plus data layers on MongoDB and PostgreSQL.
+                I am also the chess player listed as Rached, Nacim (TUN) in Championnat Tacapes R4 on chess-results..
               </p>
               <p>
                 Recent work spans map-first platforms, fleet ops dashboards, HR and
