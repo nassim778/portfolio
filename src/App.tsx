@@ -114,10 +114,11 @@ export default function App() {
           <div className="about-grid">
             <div className="about-text">
               <p>
-                I&apos;m {profile.name}, a full-stack and mobile developer with a{" "}
-                {profile.degree}. I work across React and React Native, TypeScript
-                frontends, Node tooling, and PHP / Laravel backends — plus data layers
-                on MongoDB and PostgreSQL.
+                I&apos;m {profile.name} — my first name is also commonly spelled{" "}
+                <strong>Nassim</strong>, so you may find me as {profile.alsoKnownAs} — a
+                full-stack and mobile developer with a {profile.degree}. I work across
+                React and React Native, TypeScript frontends, Node tooling, and PHP /
+                Laravel backends — plus data layers on MongoDB and PostgreSQL.
               </p>
               <p>
                 Recent work spans map-first platforms, fleet ops dashboards, HR and
@@ -138,6 +139,10 @@ export default function App() {
               <div className="meta-item">
                 <dt>Based</dt>
                 <dd>{profile.location}</dd>
+              </div>
+              <div className="meta-item">
+                <dt>Also spelled</dt>
+                <dd>{profile.alsoKnownAs}</dd>
               </div>
               <div className="meta-item">
                 <dt>WhatsApp</dt>

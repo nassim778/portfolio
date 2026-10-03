@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta
       name="description"
-      content="Nacim Rached is a Tunisia-based mobile and full-stack developer building React Native and Expo apps, web products, and TypeScript backends."
+      content="Nacim Rached — also spelled Nassim Rached — is a Tunisia-based mobile and full-stack developer building React Native and Expo apps, web products, and TypeScript backends."
     />
+    <meta name="author" content="Nacim Rached" />
     <link rel="canonical" href="https://www.nacim.tn/" />
+    <link rel="me" href="https://github.com/nassim778" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <meta name="theme-color" content="#e6efe6" />
     <title>Nacim Rached | React Native &amp; Mobile Developer in Tunisia</title>
@@ -43,27 +45,49 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "ProfilePage",
-        "url": "https://www.nacim.tn/",
-        "mainEntity": {
-          "@type": "Person",
-          "name": "Nacim Rached",
-          "url": "https://www.nacim.tn/",
-          "image": "https://avatars.githubusercontent.com/u/208200166?v=4",
-          "jobTitle": "Full-stack and Mobile Developer",
-          "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "TN"
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.nacim.tn/#website",
+            "url": "https://www.nacim.tn/",
+            "name": "Nacim Rached",
+            "alternateName": "Nassim Rached",
+            "description": "Portfolio of Nacim Rached (also spelled Nassim Rached), a Tunisia-based full-stack and mobile developer.",
+            "publisher": { "@id": "https://www.nacim.tn/#person" }
           },
-          "knowsAbout": [
-            "React Native",
-            "Expo",
-            "TypeScript",
-            "Mobile application development",
-            "Full-stack development"
-          ],
-          "sameAs": ["https://github.com/nassim778"]
-        }
+          {
+            "@type": "ProfilePage",
+            "@id": "https://www.nacim.tn/#profilepage",
+            "url": "https://www.nacim.tn/",
+            "isPartOf": { "@id": "https://www.nacim.tn/#website" },
+            "mainEntity": { "@id": "https://www.nacim.tn/#person" }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.nacim.tn/#person",
+            "name": "Nacim Rached",
+            "givenName": "Nacim",
+            "familyName": "Rached",
+            "alternateName": ["Nassim Rached"],
+            "url": "https://www.nacim.tn/",
+            "image": "https://avatars.githubusercontent.com/u/208200166?v=4",
+            "description": "Full-stack and mobile developer from Tunisia building React Native, Expo, and TypeScript products.",
+            "jobTitle": "Full-stack and Mobile Developer",
+            "nationality": { "@type": "Country", "name": "Tunisia" },
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "TN"
+            },
+            "knowsAbout": [
+              "React Native",
+              "Expo",
+              "TypeScript",
+              "Mobile application development",
+              "Full-stack development"
+            ],
+            "sameAs": ["https://github.com/nassim778"]
+          }
+        ]
       }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
