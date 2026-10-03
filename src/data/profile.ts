@@ -1,5 +1,6 @@
 export const profile = {
   name: "Nacim Rached",
+  alsoKnownAs: "Nassim Rached",
   title: "Full-stack & mobile developer",
   tagline:
     "Building web and mobile products — from React Native apps to TypeScript frontends and solid backends.",

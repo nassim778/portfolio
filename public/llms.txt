@@ -1,0 +1,36 @@
+# Nacim Rached
+
+> Nacim Rached (also spelled Nassim Rached) is a full-stack and mobile developer based in Tunisia, working remotely. He builds React Native and Expo mobile apps, React and Next.js web products, and TypeScript/Node.js and PHP/Laravel backends. He holds a Master's in Mobile Development Engineering from the Higher Institute of Management of Gabès (ISG Gabès).
+
+## Identity
+
+- Full name: Nacim Rached
+- Alternate spelling: Nassim Rached
+- Location: Tunisia · Remote
+- Degree: Master's in Mobile Development Engineering
+- Contact: WhatsApp +216 29 676 787 (https://wa.me/21629676787)
+
+## Skills
+
+TypeScript, React, React Native, Expo, Android, iOS, Next.js, Node.js, PHP, Laravel, MongoDB, PostgreSQL, Firebase, Supabase, Stripe, PayPal, MapLibre, C
+
+## Projects
+
+- [Kariaa](https://kariaa.onrender.com/): Map-first rental platform for Tunisia — PostGIS search, price pins on MapLibre, POI radius filters, Next.js monorepo with a mobile app.
+- [PiggyPower](https://piggypower.vercel.app): CHP thermoelectric e-commerce — Next.js storefront with Stripe Payment Element, PayPal checkout, and server-side price validation.
+- [UseMyPc](https://usemyypc.vercel.app): Control your desktop from a phone — remote desktop experience with a TypeScript web layer and native C companion.
+- Abdelmoula RH: HR management for Abdelmoula Agency — workers, payroll, CNSS, leaves, calendar, and notifications in PHP.
+- Abdelmoula Véhicules: Fleet and vehicle ops dashboard — leasing, mileage, expenses, stock pieces, travel tours, and notifications in PHP.
+- Abdelmoula Camp: Full desert-camp ops system for a travel agency — multi-role auth, complex reservations (tents, 4x4s, drivers, guides), tariff engine with kids & New Year pricing, boarding, services, payments, schedules, receipts, EN/FR, and PWA install on LAN.
+- [E-commerce](https://e-commerce-nacims.vercel.app): Freelance storefront with a full shopping flow, built end-to-end in TypeScript and shipped on Vercel.
+- Gestion Événement: Event management platform on Laravel — auth, sessions, Blade UI, and real event workflows.
+- AL-ASSALA: Graduation e-commerce build — catalog, cart, and commerce flows for a complete PFE deliverable.
+- [TALAAWIN](https://github.com/nassim778/TALAAWIN): GeoGuess Tunisian edition — guess locations across Tunisia. Android APK available.
+- [nassinet](https://www.npmjs.com/package/nassinet): CLI speed tester — latency, download, upload, then a 0–100 connection score. Run with `npx nassinet`.
+
+## Links
+
+- [Website](https://www.nacim.tn/)
+- [GitHub](https://github.com/nassim778)
+- [LinkedIn](https://tn.linkedin.com/in/nacim-rached-843665245)
+- [Sitemap](https://www.nacim.tn/sitemap.xml)
