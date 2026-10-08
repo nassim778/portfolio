@@ -1,10 +1,11 @@
 # Nacim Rached
 
-> Nacim Rached (also spelled Nassim Rached) is a full-stack and mobile developer based in Tunisia, working remotely. He builds React Native and Expo mobile apps, React and Next.js web products, and TypeScript/Node.js and PHP/Laravel backends. He holds a Master's in Mobile Development Engineering from the Higher Institute of Management of Gabès (ISG Gabès).
+> Nacim Rached (نسيم راشد, also spelled Nassim Rached) is a full-stack and mobile developer based in Tunisia, working remotely. He builds React Native and Expo mobile apps, React and Next.js web products, and TypeScript/Node.js and PHP/Laravel backends. He holds a Master's in Mobile Development Engineering from the Higher Institute of Management of Gabès (ISG Gabès).
 
 ## Identity
 
 - Full name: Nacim Rached
+- Arabic name: نسيم راشد
 - Alternate spelling: Nassim Rached
 - Location: Tunisia · Remote
 - Degree: Master's in Mobile Development Engineering

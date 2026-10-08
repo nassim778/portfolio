@@ -34,6 +34,9 @@ export default function App() {
                   <span className="inner">Rached</span>
                 </span>
               </h1>
+              <p className="hero-name-ar" lang="ar">
+                {profile.arabicName}
+              </p>
               <p className="hero-role">{profile.tagline}</p>
               <div className="hero-ctas">
                 <a className="btn" href="#work">
@@ -80,8 +83,10 @@ export default function App() {
           <div className="about-grid">
             <div className="about-text">
               <p>
-                I&apos;m {profile.name} — my first name is also commonly spelled{" "}
-                <strong>Nassim</strong>, so you may find me as {profile.alsoKnownAs} — a
+                I&apos;m {profile.name} (
+                <span lang="ar">{profile.arabicName}</span>) — my first name is also
+                commonly spelled <strong>Nassim</strong>, so you may find me as{" "}
+                {profile.alsoKnownAs} — a
                 full-stack and mobile developer with a {profile.degree}. I work across
                 React and React Native, TypeScript frontends, Node tooling, and PHP /
                 Laravel backends — plus data layers on MongoDB and PostgreSQL.
@@ -110,6 +115,10 @@ export default function App() {
               <div className="meta-item">
                 <dt>Also spelled</dt>
                 <dd>{profile.alsoKnownAs}</dd>
+              </div>
+              <div className="meta-item">
+                <dt>Arabic</dt>
+                <dd lang="ar">{profile.arabicName}</dd>
               </div>
               <div className="meta-item">
                 <dt>WhatsApp</dt>
