@@ -124,8 +124,9 @@ export const projects: Project[] = [
     id: "talaawin",
     name: "TALAAWIN",
     blurb:
-      "GeoGuess Tunisian edition — guess locations across Tunisia. Download the Android APK and play.",
+      "GeoGuess Tunisian edition — guess locations across Tunisia. Play on the web or download the Android APK.",
     stack: ["React Native", "Expo", "iOS", "Android", "Maps"],
+    live: "https://talawin.fun/",
     download:
       "https://github.com/nassim778/TALAAWIN/releases/download/v1.0.0/TALAAWIN-1.0.0.apk",
     kind: "Game",
